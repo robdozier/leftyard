@@ -204,3 +204,11 @@ if ( ! function_exists( 'leftyard_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'leftyard_pattern_categories' );
+
+
+/**
+ * Theme Updater
+ * */
+add_action( 'after_setup_theme', function() {
+	get_template_part( 'updater' );
+});

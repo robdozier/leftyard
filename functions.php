@@ -212,3 +212,12 @@ add_action( 'init', 'leftyard_pattern_categories' );
 add_action( 'after_setup_theme', function() {
 	get_template_part( 'updater' );
 });
+
+/**
+ * Load Additional CSS
+ */
+function load_scripts() {
+    wp_enqueue_style('ecomm.css', get_template_directory_uri() . '/assets/css/ecomm.css');
+}
+add_action('wp_enqueue_scripts', 'load_scripts');    
+add_action('admin_enqueue_scripts', 'load_scripts');

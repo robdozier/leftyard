@@ -1,0 +1,12 @@
+/* Product Select */
+.woocommerce div.product form.cart table.variations td select {
+	appearance: none;
+	background: var(--wp--preset--color--base);
+	padding: 0;
+}
+
+/* Footer Logo */
+footer .wp-block-cover__background.has-contrast-background-color:has(+ .has-background-dim-100),
+footer .custom-logo-link img {
+	filter: invert(1) saturate(0);
+}

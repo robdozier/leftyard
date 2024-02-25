@@ -208,6 +208,6 @@ new Updater(
 		'repo' => 'robdozier/leftyard',        // Theme repository.
 		'slug' => 'leftyard',                  // Theme Slug.
 		'url'  => 'https://leftyard.com', 	   // Theme URL.
-		'ver'  => 1.1                          // Theme Version.
+		'ver'  => 1.11                         // Theme Version.
 	]
 );
